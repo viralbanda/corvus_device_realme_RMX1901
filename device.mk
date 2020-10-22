@@ -156,6 +156,10 @@ MOTORIZED_CAMERA_DEVICE := true
 # Face lock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
