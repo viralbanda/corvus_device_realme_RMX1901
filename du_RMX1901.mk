@@ -23,6 +23,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 MOTORIZED_CAMERA_DEVICE := true
 
+# enable gapps build (remove if not required)
+USE_GAPPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 11 RP1A.201005.004 6782484 release-keys" \
     PRODUCT_NAME="RMX1901"
