@@ -631,4 +631,7 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
+    <!-- Custom proximity sensor to be used for pocket detection and doze -->
+    <string name="config_customProximitySensor">"qti.sensor.proximity_fake"</string>
+
 </resources>
