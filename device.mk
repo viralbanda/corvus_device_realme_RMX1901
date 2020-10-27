@@ -162,7 +162,6 @@ PRODUCT_COPY_FILES += \
 
 # FOD animations
 EXTRA_FOD_ANIMATIONS := true
-
 TARGET_HAS_FOD := true
 
 # Motor Camera
