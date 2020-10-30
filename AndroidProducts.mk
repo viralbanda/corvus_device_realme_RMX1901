@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_RMX1901.mk
+    $(LOCAL_DIR)/du_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_RMX1901-userdebug \
-    dot_RMX1901-eng
+    du_RMX1901-userdebug \
+    du_RMX1901-eng
