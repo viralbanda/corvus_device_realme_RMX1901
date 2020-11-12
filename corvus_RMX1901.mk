@@ -8,13 +8,13 @@
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := du_RMX1901
+PRODUCT_NAME := corvus_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
