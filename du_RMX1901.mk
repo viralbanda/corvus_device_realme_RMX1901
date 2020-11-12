@@ -18,7 +18,7 @@ PRODUCT_NAME := du_RMX1901
 PRODUCT_MODEL := Realme X
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 11 RP1A.201005.004 6782484 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RD1A.200810.020 6792687 release-keys" \
     PRODUCT_NAME="RMX1901"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
@@ -26,6 +26,9 @@ BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.200810.020/6792687:user/releas
 
 # Common stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# enable gapps build (remove if not required)
+USE_GAPPS := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
