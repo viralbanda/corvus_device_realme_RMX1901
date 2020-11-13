@@ -27,8 +27,5 @@ BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.200810.020/6792687:user/releas
 # Common stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# enable gapps build (remove if not required)
-USE_GAPPS := true
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
